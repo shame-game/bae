@@ -4,8 +4,7 @@ const vams = document.querySelectorAll.bind(document);
 /* load */ 
 window.onload = ()=>{
     vam('.loadweb').remove();
-    console.log('hello');
-};
+}; 
 
 /* #c661412b2 */ 
 vam('#c661412b2-iframe_click').addEventListener('click', () => {
