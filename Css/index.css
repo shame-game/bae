@@ -3,11 +3,16 @@
     background-color: white
 }
 :root {
-    --color-text: #004aab;
+    --color-text: #2b2c30;
+    --color-main: #82d1cb;
 }
 
 .title-all{
     font-size: 34px;
+}
+
+p{
+    margin: 0;
 }
 
 /* ------------------ */
