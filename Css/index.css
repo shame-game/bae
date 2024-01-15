@@ -701,3 +701,73 @@ body {
         font-size: 1em;
     }
 }
+/* ------------------ */
+/* libo1412a1 Vamnaone */
+/* ------------------ */
+#libo1412a1{
+    position: relative;
+    z-index: 87;
+    background-color: white;
+    border-radius: 50px 25px 0 0;
+    box-shadow: rgba(145, 158, 171, 0.16) -40px 40px 80px;
+}
+.libo1412a1{
+    font-size: 16px;
+    font-family: 'Rubik';
+    color: var(--color-text);
+    padding: 40px 0;
+}
+
+.libo1412a1-title{
+    text-align: center;
+}
+.libo1412a1-title>p{
+    font-size: 1em;
+    margin: 20px 0;
+}
+.libo1412a1-title>h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.libo1412a1-box{
+    justify-content: space-around;
+}
+.libo1412a1-box_img{
+    display: flex;
+    aspect-ratio: 16/9;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.libo1412a1-box_img>img{
+    width: 20%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.libo1412a1-box_content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.libo1412a1-box_content>h1{
+    font-size: 1.5em;
+    color: var(--color-main);
+    margin-bottom: 1em;
+}
+.libo1412a1-box_content>p{
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.libo1412a1-box>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.libo1412a1-box>div:nth-child(2){
+    box-shadow: rgba(145, 158, 171, 0.16) -40px 40px 80px;
+    padding: 20px 0 60px 0;
+    border-radius: 16px;
+}
