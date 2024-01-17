@@ -6,9 +6,10 @@
 :root {
     --color-text: #2b2c30;
     --color-main: #82d1cb;
-    --color-logo:rgb(44 199 241);
+    --color-logo: rgb(44 199 241);
 }
-html{
+
+html {
     font-size: 16px;
 }
 
@@ -60,6 +61,7 @@ body {
     font-size: 1.1em;
     cursor: pointer;
 }
+
 .header1412a1-list>li.acc {
     color: var(--color-main);
     font-weight: 500;
@@ -74,6 +76,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .header1412a1-logo>p {
     font-size: 1.7em;
     margin-left: 5px;
@@ -529,10 +532,12 @@ body {
     font-size: 16px;
     color: var(--color-text);
 }
-.intro1412c1-wrap{
+
+.intro1412c1-wrap {
     height: 100%;
 }
-.intro1412c1-left{
+
+.intro1412c1-left {
     display: flex;
     height: 100%;
     align-items: center;
@@ -549,6 +554,7 @@ body {
     background: -webkit-linear-gradient(300deg, var(--color-logo) 0%, var(--color-main) 25%, var(--color-logo) 50%, var(--color-main) 75%, var(--color-logo) 100%) 0% 0% / 400% text;
     animation: intro1412c1H1 18s linear infinite;
 }
+
 .intro1412c1 h4 {
     font-size: 3em;
     font-family: 'Rubik';
@@ -557,6 +563,7 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
 .intro1412c1 p {
     font-size: 1.1em;
     font-family: 'Rubik';
@@ -565,40 +572,46 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-.intro1412c1-button{
+
+.intro1412c1-button {
     width: 70%;
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
     align-items: center;
 }
-.intro1412c1-button>button{
+
+.intro1412c1-button>button {
     padding: 8px 24px;
     border-radius: 8px;
     font-size: 1.2em;
     font-weight: 600;
     transition: all .2s linear;
 }
-.intro1412c1-template{
+
+.intro1412c1-template {
     background-color: var(--color-text);
     color: white;
     border: .5px solid var(--color-text);
 }
-.intro1412c1-create{
+
+.intro1412c1-create {
     background-color: white;
     color: var(--color-main);
     border: .5px solid var(--color-main);
 }
-.intro1412c1-template:hover{
+
+.intro1412c1-template:hover {
     opacity: 0.8;
 }
-.intro1412c1-create:hover{
+
+.intro1412c1-create:hover {
     background-color: var(--color-main);
     color: white;
     border: .5px solid var(--color-main);
 }
 
-.intro1412c1-right{
+.intro1412c1-right {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -606,7 +619,8 @@ body {
     animation: introweb 1s 1.4s ease-out forwards;
     position: relative;
 }
-.intro1412c1-right::after{
+
+.intro1412c1-right::after {
     content: '';
     width: 50%;
     height: 50%;
@@ -619,7 +633,7 @@ body {
     z-index: 1;
 }
 
-#intro1412c1-img1{
+#intro1412c1-img1 {
     width: 90%;
     object-fit: contain;
     border-radius: 16px;
@@ -628,44 +642,54 @@ body {
     z-index: 2;
     animation: intro1412c1-img1 12s linear infinite;
 }
+
 @keyframes intro1412c1-img1 {
     0% {
         transform: translate3d(-2%, 0px, 0px);
     }
+
     25% {
         transform: translate3d(0px, -3.5%, 0px);
     }
+
     50% {
         transform: translate3d(2%, 0px, 0px);
     }
+
     75% {
         transform: translate3d(0px, -3.5%, 0px);
     }
+
     100% {
         transform: translate3d(-2%, 0px, 0px);
     }
 }
+
 @keyframes intro1412c1H1 {
-    0%{
+    0% {
         background-position: 0% center;
     }
-    33%{
+
+    33% {
         background-position: 180% center;
     }
-    66%{
+
+    66% {
         background-position: 0% center;
     }
-    100%{
+
+    100% {
         background-position: 180% center;
     }
 }
 
 @keyframes introweb {
-    0%{
+    0% {
         opacity: 0;
         transform: translateY(150px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
@@ -676,63 +700,77 @@ body {
         font-size: 2.5em;
         width: 80%;
     }
+
     .intro1412c1 h1 {
         font-size: 5em;
     }
+
     .intro1412c1-button {
         width: 80%;
     }
+
     .intro1412c1-button>button {
         font-size: 1em;
     }
 }
+
 @media (max-width: 75em) {
     .intro1412c1 h4 {
         font-size: 2.5em;
         width: 80%;
     }
+
     .intro1412c1 h1 {
         font-size: 5em;
     }
+
     .intro1412c1-button {
         width: 80%;
     }
+
     .intro1412c1-button>button {
         font-size: 1em;
     }
 }
+
 /* ------------------ */
 /* libo1412a1 Vamnaone */
 /* ------------------ */
-#libo1412a1{
+#libo1412a1 {
     position: relative;
     z-index: 87;
     background-color: white;
     border-radius: 50px 25px 0 0;
     box-shadow: rgba(145, 158, 171, 0.16) -40px 40px 80px;
 }
-.libo1412a1{
+
+.libo1412a1 {
     font-size: 16px;
     font-family: 'Rubik';
     color: var(--color-text);
     padding: 40px 0;
 }
 
-.libo1412a1-title{
+.libo1412a1-title {
     text-align: center;
+    opacity: 0;
 }
-.libo1412a1-title>p{
+
+.libo1412a1-title>p {
     font-size: 1em;
     margin: 20px 0;
 }
-.libo1412a1-title>h1{
+
+.libo1412a1-title>h1 {
     font-size: 3em;
     margin-bottom: 1em;
 }
-.libo1412a1-box{
+
+.libo1412a1-box {
     justify-content: space-around;
 }
-.libo1412a1-box_img{
+
+.libo1412a1-box_img {
     display: flex;
     aspect-ratio: 16/9;
     width: 100%;
@@ -740,34 +778,266 @@ body {
     align-items: center;
 }
 
-.libo1412a1-box_img>img{
+.libo1412a1-box_img>img {
     width: 20%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
-.libo1412a1-box_content{
+
+.libo1412a1-box_content {
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.libo1412a1-box_content>h1{
+
+.libo1412a1-box_content>h1 {
     font-size: 1.5em;
     color: var(--color-main);
     margin-bottom: 1em;
 }
-.libo1412a1-box_content>p{
+
+.libo1412a1-box_content>p {
     font-size: 1.1em;
     font-weight: 300;
 }
-.libo1412a1-box>div{
+
+.libo1412a1-box>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+}
+
+.libo1412a1-box>div:nth-child(2) {
+    box-shadow: rgba(145, 158, 171, 0.16) -40px 40px 80px;
+    padding: 20px 0 60px 0;
+    border-radius: 16px;
+}
+
+@keyframes intrsdsd {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ------------------ */
+/* intro1412c2 Vamnaone */
+/* ------------------ */
+
+#intro1412c2 {
+    font-size: 16px;
+    font-family: 'Rubik';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro1412c2 {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.libo1412a1-box>div:nth-child(2){
+.intro1412c2-content{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro1412c2-img-content1{
+    width: 100%;
+    display: flex;
+}
+.intro1412c2-img-content2{
+    width: 100%;
+    display: flex;
+}
+.intro1412c2-svg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: -30px 0;
+}
+.intro1412c2-svg>svg{
+    width: 50%;
+    align-self: center;
+}
+
+/* hình ảnh */ 
+.intro1412c2 img {
+    width: 80%;
     box-shadow: rgba(145, 158, 171, 0.16) -40px 40px 80px;
-    padding: 20px 0 60px 0;
-    border-radius: 16px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.intro1412c2-img1_before{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    aspect-ratio: 13/8;
+}
+.intro1412c2-img1_before>div{
+    width: 80%;
+    aspect-ratio: 13/8;
+    background-color: var(--color-main);
+    position: absolute;
+    z-index: 8;
+    border-radius: 8px;
+}
+
+
+.intro1412c2-img2_before{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    aspect-ratio: 14/8;
+}
+
+.intro1412c2-img2_before>div{
+    width: 80%;
+    aspect-ratio: 15/8;
+    background-color: var(--color-main);
+    position: absolute;
+    z-index: 8;
+    border-radius: 8px;
+}
+
+#intro1412c2-img1 {
+    border: .5px solid var(--color-main);
+    aspect-ratio: 13/8;
+    z-index: 9;
+}
+
+#intro1412c2-img1_1{
+    opacity: 0;
+    width: 20%;
+    aspect-ratio: 1/1;
+    top: 50px;
+    left: 50px;
+    border-radius: 26px;
+    z-index: 10;
+}
+
+#intro1412c2-img2 {
+    border: .5px solid var(--color-text);
+    z-index: 9;
+    aspect-ratio: 15/8;
+}
+
+/* content */
+.intro1412c2-items{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro1412c2-items>h2{
+    font-size: 1.3em;
+}
+.intro1412c2-items>h1{
+    font-size: 2.5em;
+    color: var(--color-main);
+}
+.intro1412c2-items>p{
+    font-size: 1.3em;
+    width: 70%;
+    text-align: center;
+}
+.intro1412c2-items>a{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    color: var(--color-text);
+    text-decoration: none;
+}
+.intro1412c2-items>a>h3{
+    font-size: 1.5em;
+    margin: 0 10px 2px 0;
+    transition: all .15s linear;
+}
+.intro1412c2-items>a>i{
+    font-size: 1.5em;
+    transition: all .15s linear;
+}
+.intro1412c2-items>a:hover h3{
+    transform: translateX(-3px);
+    color: var(--color-main);
+}
+.intro1412c2-items>a:hover i{
+    transform: translateX(3px);
+    color: var(--color-main);
+}
+.intro1412c2-img>svg {
+    width: 40%;
+    height: 40%;
+    align-self: center;
+}
+
+@keyframes intro1412c2-img2 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-20px, -20px);
+    }
+}
+@keyframes intro1412c2-img1_before {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-3deg);
+    }
+}
+@keyframes intro1412c2-img1_beforediv {
+    0%{
+        width: 80%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes intro1412c2-img1_1 {
+    0%{
+        transform: translate(0);
+        opacity: 0;
+    }
+    25%{
+        transform: translate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(-90px, -35px);
+        opacity: 1;
+    }
+}
+
+/* ------------------ */
+/* c121412b1 Vamnaone */
+/* ------------------ */
+#c121412b1{
+    position: relative;
+    z-index: 87;
+    height: 100vh;
+    background-color: white;
+    box-shadow: rgba(145, 158, 171, 0.16) -61px -30px 207px;
+    width: 100%;
 }
