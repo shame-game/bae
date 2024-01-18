@@ -848,33 +848,38 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-.intro1412c2-content{
+
+.intro1412c2-content {
     width: 100%;
     height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.intro1412c2-img-content1{
+
+.intro1412c2-img-content1 {
     width: 100%;
     display: flex;
 }
-.intro1412c2-img-content2{
+
+.intro1412c2-img-content2 {
     width: 100%;
     display: flex;
 }
-.intro1412c2-svg{
+
+.intro1412c2-svg {
     width: 100%;
     display: flex;
     justify-content: center;
     margin: -30px 0;
 }
-.intro1412c2-svg>svg{
+
+.intro1412c2-svg>svg {
     width: 50%;
     align-self: center;
 }
 
-/* hình ảnh */ 
+/* hình ảnh */
 .intro1412c2 img {
     width: 80%;
     box-shadow: rgba(145, 158, 171, 0.16) -40px 40px 80px;
@@ -882,7 +887,7 @@ body {
     position: absolute;
 }
 
-.intro1412c2-img1_before{
+.intro1412c2-img1_before {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -890,7 +895,8 @@ body {
     position: relative;
     aspect-ratio: 13/8;
 }
-.intro1412c2-img1_before>div{
+
+.intro1412c2-img1_before>div {
     width: 80%;
     aspect-ratio: 13/8;
     background-color: var(--color-main);
@@ -900,7 +906,7 @@ body {
 }
 
 
-.intro1412c2-img2_before{
+.intro1412c2-img2_before {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -909,7 +915,7 @@ body {
     aspect-ratio: 14/8;
 }
 
-.intro1412c2-img2_before>div{
+.intro1412c2-img2_before>div {
     width: 80%;
     aspect-ratio: 15/8;
     background-color: var(--color-main);
@@ -924,7 +930,7 @@ body {
     z-index: 9;
 }
 
-#intro1412c2-img1_1{
+#intro1412c2-img1_1 {
     opacity: 0;
     width: 20%;
     aspect-ratio: 1/1;
@@ -941,26 +947,30 @@ body {
 }
 
 /* content */
-.intro1412c2-items{
+.intro1412c2-items {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.intro1412c2-items>h2{
+
+.intro1412c2-items>h2 {
     font-size: 1.3em;
 }
-.intro1412c2-items>h1{
+
+.intro1412c2-items>h1 {
     font-size: 2.5em;
     color: var(--color-main);
 }
-.intro1412c2-items>p{
+
+.intro1412c2-items>p {
     font-size: 1.3em;
     width: 70%;
     text-align: center;
 }
-.intro1412c2-items>a{
+
+.intro1412c2-items>a {
     display: flex;
     align-items: center;
     padding: 20px 0;
@@ -968,23 +978,28 @@ body {
     color: var(--color-text);
     text-decoration: none;
 }
-.intro1412c2-items>a>h3{
+
+.intro1412c2-items>a>h3 {
     font-size: 1.5em;
     margin: 0 10px 2px 0;
     transition: all .15s linear;
 }
-.intro1412c2-items>a>i{
+
+.intro1412c2-items>a>i {
     font-size: 1.5em;
     transition: all .15s linear;
 }
-.intro1412c2-items>a:hover h3{
+
+.intro1412c2-items>a:hover h3 {
     transform: translateX(-3px);
     color: var(--color-main);
 }
-.intro1412c2-items>a:hover i{
+
+.intro1412c2-items>a:hover i {
     transform: translateX(3px);
     color: var(--color-main);
 }
+
 .intro1412c2-img>svg {
     width: 40%;
     height: 40%;
@@ -992,52 +1007,118 @@ body {
 }
 
 @keyframes intro1412c2-img2 {
-    0%{
+    0% {
         transform: translate(0);
     }
-    100%{
+
+    100% {
         transform: translate(-20px, -20px);
     }
 }
+
 @keyframes intro1412c2-img1_before {
-    0%{
+    0% {
         transform: rotate(0);
     }
-    100%{
+
+    100% {
         transform: rotate(-3deg);
     }
 }
+
 @keyframes intro1412c2-img1_beforediv {
-    0%{
+    0% {
         width: 80%;
     }
-    100%{
+
+    100% {
         width: 90%;
     }
 }
+
 @keyframes intro1412c2-img1_1 {
-    0%{
+    0% {
         transform: translate(0);
         opacity: 0;
     }
-    25%{
+
+    25% {
         transform: translate(0);
         opacity: 1;
     }
-    100%{
+
+    100% {
         transform: translate(-90px, -35px);
         opacity: 1;
     }
 }
 
 /* ------------------ */
-/* c121412b1 Vamnaone */
-/* ------------------ */
-#c121412b1{
+
+
+.wrap-section {
     position: relative;
     z-index: 87;
     height: 100vh;
     background-color: white;
     box-shadow: rgba(145, 158, 171, 0.16) -61px -30px 207px;
     width: 100%;
+}
+
+/* ------------------ */
+/* c121412b1 Vamnaone */
+/* ------------------ */
+.a121412a1 {
+    font-size: 16px;
+    font-family: 'Rubik';
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.a121412a1-wrap {
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    margin: 20px auto;
+    background: #82d1cb1a  linear-gradient(-60deg,#82d1cb00 ,#fff);
+    box-shadow: rgba(145, 158, 171, 0.16) -40px 40px 80px;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.a121412a1-wrap>h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.a121412a1-wrap>h1>span {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(300deg, var(--color-logo) 0%, var(--color-main) 25%, var(--color-logo) 50%, var(--color-main) 75%, var(--color-logo) 100%) 0% 0% / 400% text;
+    animation: intro1412c1H1 18s linear infinite;
+}
+.a121412a1-wrap>p {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 15px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.a121412a1-wrap>div>a {
+    padding: 8px 24px;
+    background: -webkit-linear-gradient(300deg, var(--color-logo) 0%, var(--color-main) 25%, var(--color-logo) 50%, var(--color-main) 75%, var(--color-logo) 100%) 0% 0% / 400%;
+    animation: intro1412c1H1 18s linear infinite;
+    color: white !important;
+    font-size: 1.3em;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all.3s linear;
+}
+.a121412a1-wrap>div>a:hover{
+    transform: scale(1.03);
+    opacity: .8;
 }
