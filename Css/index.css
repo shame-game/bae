@@ -1059,7 +1059,7 @@ body {
 .wrap-section {
     position: relative;
     z-index: 87;
-    height: 100vh;
+    height: 87vh;
     background-color: white;
     box-shadow: rgba(145, 158, 171, 0.16) -61px -30px 207px;
     width: 100%;
@@ -1121,4 +1121,80 @@ body {
 .a121412a1-wrap>div>a:hover{
     transform: scale(1.03);
     opacity: .8;
+}
+
+/* ------------------ */
+/* ft1412c Vamnaone */
+/* ------------------ */
+
+.ft1412c1{
+    font-size: 16px;
+    color: var(--color-text);
+}
+
+.ft1412c1-wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    padding: 30px 0;
+}
+
+.ft1412c1-dot{
+    height: 1px ;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--color-text);
+}
+
+.ft1412c1-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ft1412c1-text>p{
+    font-size: 1.1em;
+    padding: 20px 0;
+}
+
+
+.ft1412c1-icon{
+    display: flex;
+}
+
+.ft1412c1-icon>a>i{
+    border-radius: 50%;
+    background-color: var(--color-text);
+    color: white;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    aspect-ratio: 1/1;
+    transition: all .2s linear ;
+}
+.ft1412c1-icon>a{
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    transition: all .2s linear ;
+}
+
+.ft1412c1-icon>a:hover{
+    background-color: var(--color-main);
+}
+.ft1412c1-icon>a:hover i{
+    background-color: var(--color-main);
 }

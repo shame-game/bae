@@ -1,56 +1,43 @@
 const vam = document.querySelector.bind(document);
 const vams = document.querySelectorAll.bind(document);
 
-/* load */ 
-window.onload = ()=>{
+window.onload = () => {
     vam('.loadweb').remove();
-    setTimeout(()=>{
+    vam('#mainintro').innerHTML = intromain
+    setTimeout(() => {
         vam('.intro').remove()
-    },2500)
-}; 
+    }, 2500)
+};
 
-scroll.on('scroll', (args) => {
-    if(typeof args.currentElements['libo1412a1'] === 'object') {
-        let progress = args.currentElements['libo1412a1'].progress;
-        let con = Math.round(progress);
-        if( con === 0 ){
-            let ggg = vam(".libo1412a1-box>div").style.animation;
-            if(ggg == ''){
-                vams(".libo1412a1-box>div").forEach((tab)=> {
-                    tab.style.animation = "intrsdsd .6s .4s linear forwards";
-                });
-                vam(".libo1412a1-title").style.animation = "intrsdsd .5s .4s linear forwards";
-            }
-        }
-    }
-});
+vam('#template').addEventListener('click', () => {   
+    if(vam('#template').getAttribute('class') == ''){
+        vam('#mainintro').innerHTML = intro;
+        vam('.intrologo-hidenTemplate>h2').innerText = 'Template'
+        vam('.intrologo-hidenTemplate>p').innerText = 'Landing'
+        vam('.intrologo-hidenTemplate>span').innerText = 'Pages'
+        vam('.header1412a1-list>.acc').classList.remove('acc');
+        vam('#template').classList.add('acc');
+        vams('.main>section').forEach((tab)=>{
+            tab.remove()
+        })
+        vam('.main').innerHTML =  libo1412a1 + intro1412c2;
+        scroll.update()
+        scroll.start()
+    } 
+})
 
-scroll.on('scroll', (args) => {
-    if(typeof args.currentElements['intro1412c2-img-content1'] === 'object') {
-        let progress = args.currentElements['intro1412c2-img-content1'].progress;
-        let con = Math.round(progress);
-        if( con === 0 ){
-            let ggg = vam(".intro1412c2-img1_before").style.animation;
-            let ggd = vam("#intro1412c2-img1_1").style.animation;
-            let ggf = vam(".intro1412c2-img1_before>div").style.animation;
-            if(ggg == ''){
-                vam(".intro1412c2-img1_before").style.animation = "intro1412c2-img1_before .3s .5s  linear forwards";
-                vam("#intro1412c2-img1_1").style.animation = "intro1412c2-img1_1 .3s .7s linear forwards";
-                vam(".intro1412c2-img1_before>div").style.animation = "intro1412c2-img1_beforediv .3s .5s  linear forwards";
-            }
-        }
-    }
-});
-scroll.on('scroll', (args) => {
-    if(typeof args.currentElements['intro1412c2-img-content2'] === 'object') {
-        let progress = args.currentElements['intro1412c2-img-content2'].progress;
-        let con = Math.round(progress);
-        if( con === 0 ){
-            let ggg = vam("#intro1412c2-img2").style.animation;
-            
-            if(ggg == ''){
-                vam("#intro1412c2-img2").style.animation = "intro1412c2-img2 .3s .6s linear forwards";
-            }
-        }
-    }
-});
+vam('#home').addEventListener('click', () => {
+    if(vam('#home').getAttribute('class') == ''){
+        vam('#mainintro').innerHTML = intro;
+        vam('.intrologo-hidenTemplate>h2').innerText = 'Home'
+        vam('.intrologo-hidenTemplate>p').innerText = 'Page'
+        vam('.intrologo-hidenTemplate>span').innerText = 'Vamnaone'
+        vam('.header1412a1-list>.acc').classList.remove('acc');
+        vam('#home').classList.add('acc');
+        vams('.main>section').forEach((tab)=>{
+            tab.remove()
+        })
+        vam('.main').innerHTML = libo1412a1 + libo1412a1 + intro1412c2 + footerhome;
+        vam('#libo1412a1').setAttribute('data-scroll-section')
+    } 
+})

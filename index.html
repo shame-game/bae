@@ -28,20 +28,12 @@
     <div class="loadweb">
         <div></div>
     </div>
-    <div class="intro">
-        <div class="intrologo">
-            <div class="intrologo-hiden">
-                <h2>Vamnaone</h2>
-                <p> Create </p><span>Template Landing</span>
-            </div>
-        </div>
-        <div class="introone"></div>
-    </div>
+    <div id="mainintro"></div>
     <main class="main-wrap">
         <section id="header1412a1">
             <div class="header1412a1">
                 <div class="header1412a1-logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 213 215"
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 213 215"
                         fill="none">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M159.974 128L138 167H159.974V128Z"
                             fill="#2B2C30" />
@@ -54,14 +46,14 @@
                     <p>Vamnaone</p>
                 </div>
                 <ul class="header1412a1-list">
-                    <li class="acc">Home</li>
-                    <li class="">Template</li>
-                    <li class="">Create</li>
-                    <li class="">Contact</li>
+                    <li id="home" class="acc">Home</li>
+                    <li id="template" class="">Template</li>
+                    <li id="create" class="">Create</li>
+                    <li id="contact" class="">Contact</li>
                 </ul>
             </div>
         </section>
-        <div class="main" data-scroll-container>
+        <div class="main" data-scroll-container has-scroll-smooth>
             <section id="intro1412c1" data-scroll-section data-scroll data-scroll-speed="-4">
                 <div class="intro1412c1 container">
                     <div class="row intro1412c1-wrap">
@@ -136,15 +128,14 @@
                             </div>
                         </div>
                         <div class="intro1412c2-svg">
-                            <a href="">
-                                <svg viewBox="0 0 690 408" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0,-17 Q21,200 345,204 T645,408" stroke="#C0D1EB" stroke-width="5"
-                                        stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="20 20"></path>
-                                    <path d="M690,408Q640,208 345,204Q50,39 0,0" stroke="white" stroke-width="5"
-                                        stroke-linejoin="round" stroke-linecap="round" pathLength="1"
-                                        stroke-dashoffset="0px" stroke-dasharray="0px 1px"></path>
-                                </svg>
-                            </a>
+                            <svg viewBox="0 0 690 408" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0,-17 Q21,200 345,204 T645,408" stroke="#C0D1EB" stroke-width="5"
+                                    stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="20 20"></path>
+                                <path d="M690,408Q640,208 345,204Q50,39 0,0" stroke="white" stroke-width="5"
+                                    stroke-linejoin="round" stroke-linecap="round" pathLength="1"
+                                    stroke-dashoffset="0px" stroke-dasharray="0px 1px"></path>
+                            </svg>
+
                         </div>
                         <div class="intro1412c2-img-content2" data-scroll data-scroll-id="intro1412c2-img-content2">
                             <div class="intro1412c2-items">
@@ -176,10 +167,38 @@
                         </div>
                     </div>
                 </section>
+                <section id="ft1412c1">
+                    <div class="ft1412c1">
+                        <div class="ft1412c1-wrap">
+                            <div class="ft1412c1-dot"></div>
+                            <div class="ft1412c1-content">
+                                <div class="ft1412c1-text">
+                                    <p>© Product created by T&A Lab</p>
+                                </div>
+                                <div class="ft1412c1-icon">
+                                    <a href="">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="bi bi-youtube"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="bi bi-tiktok"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </section>
         </div>
     </main>
     <!-- Locomotive-scroll -->
+    <script src="Js/component.js"></script>
+    <script src="Js/index.js"></script>
     <script src="Js/locomotive-scroll.js"></script>
     <script>
         (function () {
@@ -190,6 +209,7 @@
             smooth: true
         });
     </script>
+    <script src="Js/animetion.js"></script>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Slick -->
@@ -199,7 +219,5 @@
     <!-- Fetch-sheet-->
     <script src="https://cdn.statically.io/gh/tr1nh/fetch-sheet.js/master/fetch-sheet.min.js"></script>
     <!-- Main Js -->
-    <script src="Js/index.js"></script>
 </body>
-
 </html>
