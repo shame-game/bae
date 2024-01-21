@@ -24,6 +24,10 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* --------------------- */
 /* Header1412a1 Vamnaone */
 /* --------------------- */
@@ -1083,7 +1087,7 @@ body {
     background-size: cover;
     background-position: right bottom;
     margin: 20px auto;
-    background: #82d1cb1a  linear-gradient(-60deg,#82d1cb00 ,#fff);
+    background: #82d1cb1a linear-gradient(-60deg, #82d1cb00, #fff);
     box-shadow: rgba(145, 158, 171, 0.16) -40px 40px 80px;
     padding: 30px;
     border-radius: 16px;
@@ -1100,6 +1104,7 @@ body {
     background: -webkit-linear-gradient(300deg, var(--color-logo) 0%, var(--color-main) 25%, var(--color-logo) 50%, var(--color-main) 75%, var(--color-logo) 100%) 0% 0% / 400% text;
     animation: intro1412c1H1 18s linear infinite;
 }
+
 .a121412a1-wrap>p {
     font-size: 1.3em;
     text-align: center;
@@ -1107,6 +1112,7 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+
 .a121412a1-wrap>div>a {
     padding: 8px 24px;
     background: -webkit-linear-gradient(300deg, var(--color-logo) 0%, var(--color-main) 25%, var(--color-logo) 50%, var(--color-main) 75%, var(--color-logo) 100%) 0% 0% / 400%;
@@ -1118,7 +1124,8 @@ body {
     cursor: pointer;
     transition: all.3s linear;
 }
-.a121412a1-wrap>div>a:hover{
+
+.a121412a1-wrap>div>a:hover {
     transform: scale(1.03);
     opacity: .8;
 }
@@ -1127,12 +1134,12 @@ body {
 /* ft1412c Vamnaone */
 /* ------------------ */
 
-.ft1412c1{
+.ft1412c1 {
     font-size: 16px;
     color: var(--color-text);
 }
 
-.ft1412c1-wrap{
+.ft1412c1-wrap {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1140,14 +1147,14 @@ body {
     padding: 30px 0;
 }
 
-.ft1412c1-dot{
-    height: 1px ;
+.ft1412c1-dot {
+    height: 1px;
     width: 90%;
     margin: 0 auto;
     background-color: var(--color-text);
 }
 
-.ft1412c1-content{
+.ft1412c1-content {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -1155,46 +1162,161 @@ body {
     align-items: center;
 }
 
-.ft1412c1-text>p{
+.ft1412c1-text>p {
     font-size: 1.1em;
     padding: 20px 0;
 }
 
 
-.ft1412c1-icon{
+.ft1412c1-icon {
     display: flex;
 }
 
-.ft1412c1-icon>a>i{
+.ft1412c1-icon>a>i {
     border-radius: 50%;
     background-color: var(--color-text);
     color: white;
     text-decoration: none;
     width: 25px;
     height: 25px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 5px;
     aspect-ratio: 1/1;
-    transition: all .2s linear ;
+    transition: all .2s linear;
 }
-.ft1412c1-icon>a{
+
+.ft1412c1-icon>a {
     border-radius: 50%;
     color: white;
     text-decoration: none;
     width: 30px;
     height: 30px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 5px;
-    transition: all .2s linear ;
+    transition: all .2s linear;
 }
 
-.ft1412c1-icon>a:hover{
+.ft1412c1-icon>a:hover {
     background-color: var(--color-main);
 }
-.ft1412c1-icon>a:hover i{
+
+.ft1412c1-icon>a:hover i {
     background-color: var(--color-main);
+}
+
+/* ------------------ */
+/* c121412b1 Vamnaone */
+/* ------------------ */
+.list1412a1 {
+    font-size: 16px;
+    font-family: 'Rubik';
+    color: var(--color-text);
+}
+
+.list1412a1-title {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list1412a1-title>h1 {
+    font-size: 3em;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(300deg, var(--color-logo) 0%, var(--color-main) 25%, var(--color-logo) 50%, var(--color-main) 75%, var(--color-logo) 100%) 0% 0% / 400% text;
+    animation: intro1412c1H1 18s linear infinite;
+    text-align: center;
+}
+.list1412a1-title>p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.list1412a1-title>a {
+    font-size: 1.5em;
+    padding: 8px 20px;
+    border-radius: 8px;
+    background: -webkit-linear-gradient(300deg, var(--color-logo) 0%, var(--color-main) 25%, var(--color-logo) 50%, var(--color-main) 75%, var(--color-logo) 100%) 0% 0% / 400%;
+    animation: intro1412c1H1 18s linear infinite;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.list1412a1-title>a:hover {
+    transform: scale(1.03);
+    opacity: .8;
+}
+
+.list1412a1-template>h2{
+    font-size: 1.5em;
+}
+
+.list1412a1-hr{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    border-bottom-style: dashed;
+}
+.list1412a1-template-wrap{
+    width: 100%;
+    height: max-content;
+}
+.list1412a1-box{
+    position: relative;
+    padding: 15px;
+}
+.list1412a1-box>div>p{
+    font-size: 1.1em;
+    margin: 10px 0 5px 0;
+    font-weight: 500;
+}
+.list1412a1-box>div>h4{
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.list1412a1-img{
+    width: 100%;
+    aspect-ratio: 16/8;
+    object-fit: cover;
+    object-position: top left;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    border-radius: 8px;
+    transition: all .3s linear ;
+    cursor: pointer;
+}
+
+.list1412a1-posi{
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    transition: all .2s linear;
+}
+.list1412a1-posi>a{
+    padding: 8px 20px;
+    font-size: 1.1em;
+    background: -webkit-linear-gradient(300deg, var(--color-logo) 0%, var(--color-main) 25%, var(--color-logo) 50%, var(--color-main) 75%, var(--color-logo) 100%) 0% 0% / 400%;
+    animation: intro1412c1H1 18s linear infinite;
+    color: white;
+    border-radius: 8px;
+    opacity: 0;
+    transition: all .3s linear;
+}
+
+.list1412a1-box:hover .list1412a1-img{
+    filter:brightness(80%)
+}
+.list1412a1-box:hover .list1412a1-posi>a{
+    opacity: 1;
+}
+.list1412a1-posi:hover{
+    transform:  scale(1.02)
 }
